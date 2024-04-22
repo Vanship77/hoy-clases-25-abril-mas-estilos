@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    border: 1px solid red;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+/*--Estilos Header--*/
+header {
+    width: 100%;
+    border: 1px solid blue;
+    background: url('../imagenes/cafe-granos.webp') #ff0000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+
+}
+
+header .contenedor {
+    position: relative;
+    height: 700px;
+}
+
+header .menu {
+    width: 100%;
+    text-align:justify ;
+    color: aliceblue;
+
+}
+
+header .menu a {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+header .menu a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
