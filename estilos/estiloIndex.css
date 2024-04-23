@@ -17,13 +17,12 @@ body {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    color: rgb(255, 255, 255);
 }
 
 /*--Estilos Header--*/
 header {
-    width: 100%;
     border: 1px solid blue;
+    width: 100%;   
     background: url('../imagenes/cafe-granos.webp') #ff0000;
     background-size: cover;
     background-attachment: fixed;
@@ -38,9 +37,7 @@ header .contenedor {
 
 header .menu {
     width: 100%;
-    text-align:justify ;
-    color: aliceblue;
-
+    text-align: right;
 }
 
 header .menu a {
@@ -52,7 +49,89 @@ header .menu a {
     text-decoration: none;
     position: relative;
 }
-header .menu a:hover{
-    text-decoration: underline;
+
+header .menu a:hover {
     color: blueviolet;
+    text-decoration: underline;
 }
+
+header .texto {
+    width: 100%;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    margin: -52px;
+
+}
+
+
+header .texto .nombre{
+font-size: 50px;
+font-weight: 600;
+
+}
+
+header .texto .nombre span{
+font-weight: 300;
+
+}
+
+header .texto h3{
+    font-weight: 300;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/*---MAIN---*/
+
+.main{
+    background: url(../imagenes/blanca.jpg);
+background-repeat: repeat;
+
+
+}
+
+.main .acercade .contenedor{
+
+overflow: visible;
+position: relative;
+
+}
+
+.main .acercade .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 50px rgba(16, 119, 145, 0.35);
+}
+
+.main .acercade .foto img{
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acercade article{
+    background: aliceblue;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    float: right;
+    box-shadow: 50px 50px 15px rgba(0, 0, 0, 0.35);
+}
+
+.main .acercade article h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .acercade article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+
+}
+
