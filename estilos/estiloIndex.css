@@ -12,17 +12,19 @@ body {
 }
 
 .contenedor {
+    overflow: hidden;
     border: 1px solid red;
     width: 90%;
     max-width: 1000px;
     margin: auto;
-    overflow: hidden;
+
+    
 }
 
 /*--Estilos Header--*/
 header {
-    border: 1px solid blue;
-    width: 100%;   
+    width: 100%;
+    border: 1px solid blue; 
     background: url('../imagenes/cafe-granos.webp') #ff0000;
     background-size: cover;
     background-attachment: fixed;
@@ -134,4 +136,99 @@ position: relative;
     margin-bottom: 15px;
 
 }
+
+
+/*-----------secccion mennu---------*/
+
+.main .menu{
+    padding-top: 570px;
+    margin-bottom: 50px;
+}
+
+.main .Menu .titulo {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .Menu .contenedor-menu1,
+.main .Menu .contenedor-menu2{
+border: 1px solid #000;
+background: transparent;
+padding: 10px;
+overflow: hidden;
+}
+
+.main .Menu article{
+    width: 90%;
+    float: left;
+    padding: 20px;
+    color: rgb(8, 66, 68);
+
+} 
+
+.main .Menu .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .Menu .platillo{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #8f1bac;
+    overflow: hidden;
+}
+
+.main .Menu .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+    color: rgb(143, 99, 18);
+}
+.main .Menu .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+    color: rgb(199, 50, 80);
+}
+
+.main .Menu .descripcion{
+    font-size: 16px;
+    color: #1b6963;
+    clear:both;
+}
+/*------galeria--------*/
+.main .galeria{
+    overflow: hidden;
+}
+
+.main .galeria .fotos{
+    width: 25%;
+    float: left;
+    padding: 2px;
+    overflow: hidden;
+}
+.main .galeria .fotos img{
+    width: 100%;
+    vertical-align: bottom;
+    opacity: .7;
+}
+
+.main ,.galeria .fotos img:hover{
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
